@@ -118,6 +118,12 @@ set backspace=indent,eol,start
 
 "Folding based on indentation:
 autocmd FileType python set foldmethod=indent
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 "use space to open folds
 nnoremap <space> za 
 "----------Stop python PEP 8 stuff--------------
